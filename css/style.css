@@ -1,0 +1,16 @@
+.row [class*="col-"] {
+    padding: 10px;
+    text-align: center;
+    background-color: #006cfa;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.nested-row .row [class*="col-"] {
+    border-style: none !important;
+}
+
+.row .nested {
+    background-color: #00e165;
+    padding: 10px 0px;
+}

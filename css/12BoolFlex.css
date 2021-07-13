@@ -4,3 +4,70 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.container-fluid {
+    min-width: 100%;
+}
+
+.container {
+    min-width: 992px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* da vedere */
+.col {
+    flex-grow: 1;
+}
+
+.col-xs-1 {
+    flex-basis: calc((100% / 12) * 1);
+}
+
+.col-xs-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+
+.col-xs-3 {
+    flex-basis: calc((100% / 12) * 3);
+}
+
+.col-xs-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-xs-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+
+.col-xs-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+
+.col-xs-7 {
+    flex-basis: calc((100% / 12) * 7);
+}
+
+.col-xs-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.col-xs-9 {
+    flex-basis: calc((100% / 12) * 9);
+}
+
+.col-xs-10 {
+    flex-basis: calc((100% / 12) * 10);
+}
+
+.col-xs-11 {
+    flex-basis: calc((100% / 12) * 11);
+}
+
+.col-xs-12 {
+    flex-basis: 100%;
+}
