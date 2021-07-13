@@ -14,3 +14,11 @@
     background-color: #00e165;
     padding: 10px 0px;
 }
+
+.section {
+    margin: 10px 0px;
+}
+
+.void {
+    height: 40px;
+}
